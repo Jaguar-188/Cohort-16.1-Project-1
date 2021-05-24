@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 20vh;
+}
+
+header h4{
+    padding: 50px 100px;
+}
+
+section{
+    display: flex;
+    width: 100%;
+}
+
+section .image{
+    padding-top: 150px;
+    padding-left: 100px;
+    width: 50%;
+}
+
+section .image .im{
+    height: 500px;
+    width: 500px;
+}
+
+section .text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+section .text .div1{
+    width: 80%;
+    font-family: monospace;
+    font-size: 50px;
+    padding-top: 180px;
+}
+
+section .text .div2{
+    width: 48%;
+    font-family: monospace;
+    font-size: 20px;
+    padding-top: 100px;
+}
+
+section .text .div3{
+    padding-top: 130px;
+    width: 28%;
+}
+
+section .text .div3 button{
+    text-transform: uppercase;
+    border: none;
+    background: rgb(2, 2, 2);
+    width: 190px;
+    height: 50px;
+}
+
+section .text .div3 button span{
+    color: white;
+    padding: 20px;
+    font-family: monospace;
+}
+
+footer{
+    width: 100%;
+    height: 30vh;
+}
+
+footer p{
+    text-align: center;
+    padding-top: 150px;
+    color: rgb(185, 183, 183);
+}
+
+@media(max-width : 464px){
+
+    header h4{
+        padding-top: 30px;
+        padding-left: 30px;
+    }
+
+    section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    section .image{
+        /* background: green; */
+        padding-top: 30px;
+        padding-left: 65px;
+    }
+
+    section .image .im{
+        height: 230px;
+        width: 230px;
+    }
+
+    section .text{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    section .text .div1{
+        width: 200%;
+        font-family: monospace;
+        font-size: 40px;
+        padding-top: 60px;
+        padding-left: 30px;
+    }
+    
+    section .text .div2{
+        width: 200%;
+        font-family: monospace;
+        font-size: 18px;
+        padding-top: 50px;
+        padding-left: 20px;
+    }
+    
+    section .text .div3{
+        padding-top: 50px;
+        padding-left: 20px;
+    }
+    
+
+}
+
+
+
+
+
